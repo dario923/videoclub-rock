@@ -105,7 +105,7 @@ for i, (idx, row) in enumerate(df_a_mostrar.iterrows()):
                 st.markdown(f'<a href="{row["Link_Video"]}" target="_blank" class="btn-ver-final">▶️ Ver</a>', unsafe_allow_html=True)
 
 st.divider()
-st.markdown(f"<p style='text-align: center; color: gray;'>© 2026 Archivo Rock - Dario Sanabria</p>", unsafe_allow_html=True)
+st.markdown(f"<p style='text-align: center; color: gray;'>© 2026 Archivo Rock</p>", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
