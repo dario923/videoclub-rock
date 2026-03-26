@@ -1,0 +1,18 @@
+cat <<EOF > .gitignore
+# Entorno Virtual
+venv/
+env/
+.env
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpetas de Streamlit
+.streamlit/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+EOF
